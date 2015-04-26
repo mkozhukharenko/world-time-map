@@ -27,7 +27,7 @@ css/
   main.css           	--> default stylesheet
 js/            
   main.js            	--> main app scritp (unites other pieces)
-  mapConfig.js       	--> main logic
+  mapConfig.js       	--> map configuration
   markersStorage.js  	--> model for markers
   markersView.js      --> view for markers
   popupView.js        --> view for popup (bubbles)     
