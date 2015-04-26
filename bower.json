@@ -1,0 +1,9 @@
+{
+  "name": "world-map",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "moment": "~2.10.2",
+    "lodash": "~3.7.0"
+  }
+}

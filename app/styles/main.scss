@@ -1,0 +1,48 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+/* Space out content a bit */
+body {
+  height: 100vh;
+}
+
+body .main-container {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body .container_header {
+  height: 8vh;
+}
+
+.container_map {
+  margin-top: 8vh;
+  height: 92vh;
+}
+
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .container_header,
+  .container_footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .container_header {
+    margin-bottom: 30px;
+  }
+
+}
